@@ -1,4 +1,4 @@
-module github.com/vmware/go-vmware-nsxt
+module github.com/ScottHolden/go-vmware-nsxt
 
 go 1.13
 
