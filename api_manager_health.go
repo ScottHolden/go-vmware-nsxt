@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/vmware/go-vmware-nsxt/administration"
+	"github.com/ScottHolden/go-vmware-nsxt/administration"
 )
 
 // Linger please

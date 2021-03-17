@@ -10,7 +10,7 @@
 package containerinventory
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 // Details of container cluster node i.e. container host.
@@ -35,7 +35,7 @@ type ContainerClusterNode struct {
 	CniAgentStatus string `json:"cni_agent_status,omitempty"`
 	// External identifier of the container cluster.
 	ContainerClusterId string `json:"container_cluster_id,omitempty"`
-	// External identifier of the container cluster node in K8S/PAS. 
+	// External identifier of the container cluster node in K8S/PAS.
 	ExternalId string `json:"external_id"`
 	// List of IP addresses of container cluster node.
 	IpAddresses []string `json:"ip_addresses,omitempty"`
@@ -43,7 +43,7 @@ type ContainerClusterNode struct {
 	NetworkErrors []common.NetworkError `json:"network_errors,omitempty"`
 	// Network status of container cluster node.
 	NetworkStatus string `json:"network_status,omitempty"`
-	// Array of additional specific properties of container cluster node in key-value format. 
+	// Array of additional specific properties of container cluster node in key-value format.
 	OriginProperties []common.KeyValuePair `json:"origin_properties,omitempty"`
 	// Specifies identifier of container cluster node given by infrastructure provider of container cluster. e.g. in case of vSpehere, it will be instance uuid of worker node virtual machine.
 	ProviderId string `json:"provider_id,omitempty"`

@@ -6,7 +6,7 @@
 package manager
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 type IpBlockSubnet struct {

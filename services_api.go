@@ -9,13 +9,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/vmware/go-vmware-nsxt/common"
-	"github.com/vmware/go-vmware-nsxt/loadbalancer"
-	"github.com/vmware/go-vmware-nsxt/manager"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/ScottHolden/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/loadbalancer"
+	"github.com/ScottHolden/go-vmware-nsxt/manager"
 )
 
 // Linger please

@@ -9,12 +9,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/vmware/go-vmware-nsxt/administration"
-	"github.com/vmware/go-vmware-nsxt/manager"
-	"github.com/vmware/go-vmware-nsxt/trust"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/ScottHolden/go-vmware-nsxt/administration"
+	"github.com/ScottHolden/go-vmware-nsxt/manager"
+	"github.com/ScottHolden/go-vmware-nsxt/trust"
 )
 
 // Linger please

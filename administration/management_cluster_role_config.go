@@ -6,7 +6,7 @@
 package administration
 
 import (
-	"github.com/vmware/go-vmware-nsxt/manager"
+	"github.com/ScottHolden/go-vmware-nsxt/manager"
 )
 
 type ManagementClusterRoleConfig struct {

@@ -10,7 +10,7 @@
 package containerinventory
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 // Container application instance within a project.
@@ -37,7 +37,7 @@ type ContainerApplicationInstance struct {
 	ContainerApplicationIds []string `json:"container_application_ids,omitempty"`
 	// Identifier of the container cluster this application instance belongs to.
 	ContainerClusterId string `json:"container_cluster_id,omitempty"`
-	// Identifier of the container project which this container application instance belongs to. 
+	// Identifier of the container project which this container application instance belongs to.
 	ContainerProjectId string `json:"container_project_id,omitempty"`
 	// Identifier of the container application instance on container cluster.
 	ExternalId string `json:"external_id"`
@@ -45,7 +45,7 @@ type ContainerApplicationInstance struct {
 	NetworkErrors []common.NetworkError `json:"network_errors,omitempty"`
 	// Network status of container application instance.
 	NetworkStatus string `json:"network_status,omitempty"`
-	// Array of additional specific properties of container application instance in key-value format. 
+	// Array of additional specific properties of container application instance in key-value format.
 	OriginProperties []common.KeyValuePair `json:"origin_properties,omitempty"`
 	// Status of the container application instance.
 	Status string `json:"status,omitempty"`

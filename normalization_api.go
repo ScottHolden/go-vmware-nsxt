@@ -8,10 +8,11 @@ package nsxt
 import (
 	"context"
 	"encoding/json"
-	"github.com/vmware/go-vmware-nsxt/normalization"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/ScottHolden/go-vmware-nsxt/normalization"
 )
 
 // Linger please

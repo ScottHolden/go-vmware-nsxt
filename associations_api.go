@@ -8,10 +8,11 @@ package nsxt
 import (
 	"context"
 	"encoding/json"
-	"github.com/vmware/go-vmware-nsxt/association"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/ScottHolden/go-vmware-nsxt/association"
 )
 
 // Linger please

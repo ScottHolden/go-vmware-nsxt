@@ -10,7 +10,7 @@
 package containerinventory
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 // Details of Container Ingress Policy.
@@ -31,7 +31,7 @@ type ContainerIngressPolicy struct {
 	ResourceType string `json:"resource_type"`
 	// Opaque identifiers meaningful to the API user
 	Tags []common.Tag `json:"tags,omitempty"`
-	// List of identifiers of the container application , on which ingress policy is applied. e.g. IDs of all services on which the ingress is applied in kubernetes. 
+	// List of identifiers of the container application , on which ingress policy is applied. e.g. IDs of all services on which the ingress is applied in kubernetes.
 	ContainerApplicationIds []string `json:"container_application_ids,omitempty"`
 	// Identifier of the container cluster this ingress policy belongs to.
 	ContainerClusterId string `json:"container_cluster_id,omitempty"`
@@ -43,7 +43,7 @@ type ContainerIngressPolicy struct {
 	NetworkErrors []common.NetworkError `json:"network_errors,omitempty"`
 	// Network status of container ingress.
 	NetworkStatus string `json:"network_status,omitempty"`
-	// Array of additional specific properties of container ingress in key-value format. 
+	// Array of additional specific properties of container ingress in key-value format.
 	OriginProperties []common.KeyValuePair `json:"origin_properties,omitempty"`
 	// Container ingress policy specification.
 	Spec string `json:"spec,omitempty"`

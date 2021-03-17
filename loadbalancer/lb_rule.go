@@ -10,7 +10,7 @@
 package loadbalancer
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 // Load balancer rules allow customization of load balancing behavior using match/action rules. Currently, load balancer rules are supported for only layer 7 virtual servers with application profile LbHttpProfile. Each application rule consists of one or more match conditions and one or more actions. Load balancer rules could be used by different load balancer services.

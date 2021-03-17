@@ -10,7 +10,7 @@
 package containerinventory
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 // Details of org/namespace within a container cluster.
@@ -39,6 +39,6 @@ type ContainerProject struct {
 	NetworkErrors []common.NetworkError `json:"network_errors,omitempty"`
 	// Network status of container project.
 	NetworkStatus string `json:"network_status,omitempty"`
-	// Array of additional specific properties of container project in key-value format. 
+	// Array of additional specific properties of container project in key-value format.
 	OriginProperties []common.KeyValuePair `json:"origin_properties,omitempty"`
 }

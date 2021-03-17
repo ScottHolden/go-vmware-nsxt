@@ -10,7 +10,7 @@
 package loadbalancer
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 // TCP profile allows customization of TCP stack behavior for each application. As TCP connections are terminated (or initiated) on the load balancer only for L7 virtual servers, TCP profiles are applicable only to them. As the desired TCP characteristics (e.g. Rx/Tx buffers) may be different for client (typically on WAN) and server (typically on LAN) sides, two separate profiles can be bound to virtual server, one for client-side (LbVirtualServer.client_tcp_profile_id) and another for server-side (LbVirtualServer.server_tcp_profile_id).

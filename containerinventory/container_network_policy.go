@@ -10,7 +10,7 @@
 package containerinventory
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/ScottHolden/go-vmware-nsxt/common"
 )
 
 // Network policy applied to container.
@@ -41,7 +41,7 @@ type ContainerNetworkPolicy struct {
 	NetworkErrors []common.NetworkError `json:"network_errors,omitempty"`
 	// Network status of container network policy.
 	NetworkStatus string `json:"network_status,omitempty"`
-	// Array of additional specific properties of container network policy in key-value format. 
+	// Array of additional specific properties of container network policy in key-value format.
 	OriginProperties []common.KeyValuePair `json:"origin_properties,omitempty"`
 	// Type e.g. Network Policy, ASG.
 	PolicyType string `json:"policy_type,omitempty"`

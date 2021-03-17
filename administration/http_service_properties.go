@@ -6,7 +6,7 @@
 package administration
 
 import (
-	"github.com/vmware/go-vmware-nsxt/trust"
+	"github.com/ScottHolden/go-vmware-nsxt/trust"
 )
 
 // HTTP Service properties
