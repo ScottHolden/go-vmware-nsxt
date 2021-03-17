@@ -15,4 +15,9 @@ type AttachmentContext struct {
 
 	// Used to indicate what the port is created for
 	VifType string `json:"vif_type,omitempty"`
+
+	// Child VIF Stuff
+	ParentVifId string `json:"parent_vif_id,omitempty"`
+	TrafficTag  int64  `json:"traffic_tag,omitempty"`
+	AppId       int64  `json:"app_id,omitempty"`
 }
