@@ -19,5 +19,5 @@ type AttachmentContext struct {
 	// Child VIF Stuff
 	ParentVifId string `json:"parent_vif_id,omitempty"`
 	TrafficTag  int64  `json:"traffic_tag,omitempty"`
-	AppId       int64  `json:"app_id,omitempty"`
+	AppId       string `json:"app_id,omitempty"`
 }
